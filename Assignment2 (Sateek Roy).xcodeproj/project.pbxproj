@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0D964051F1FD114003F8B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D964041F1FD114003F8B27 /* AppDelegate.swift */; };
+		D0D964071F1FD114003F8B27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D964061F1FD114003F8B27 /* ViewController.swift */; };
+		D0D9640A1F1FD114003F8B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D964081F1FD114003F8B27 /* Main.storyboard */; };
+		D0D9640D1F1FD114003F8B27 /* Assignment2__Sateek_Roy_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0D9640B1F1FD114003F8B27 /* Assignment2__Sateek_Roy_.xcdatamodeld */; };
+		D0D9640F1F1FD114003F8B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D9640E1F1FD114003F8B27 /* Assets.xcassets */; };
+		D0D964121F1FD114003F8B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D964101F1FD114003F8B27 /* LaunchScreen.storyboard */; };
+		D0D9641A1F1FD4A5003F8B27 /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D964191F1FD4A5003F8B27 /* AddStudentViewController.swift */; };
+		D0D9641C1F1FD4D3003F8B27 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D9641B1F1FD4D3003F8B27 /* StudentTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0D964011F1FD114003F8B27 /* Assignment2 (Sateek Roy).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment2 (Sateek Roy).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D964041F1FD114003F8B27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0D964061F1FD114003F8B27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0D964091F1FD114003F8B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0D9640C1F1FD114003F8B27 /* Assignment2__Sateek_Roy_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Assignment2__Sateek_Roy_.xcdatamodel; sourceTree = "<group>"; };
+		D0D9640E1F1FD114003F8B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0D964111F1FD114003F8B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0D964131F1FD114003F8B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D964191F1FD4A5003F8B27 /* AddStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		D0D9641B1F1FD4D3003F8B27 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D963FE1F1FD114003F8B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0D963F81F1FD114003F8B27 = {
+			isa = PBXGroup;
+			children = (
+				D0D964031F1FD114003F8B27 /* Assignment2 (Sateek Roy) */,
+				D0D964021F1FD114003F8B27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D964021F1FD114003F8B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D964011F1FD114003F8B27 /* Assignment2 (Sateek Roy).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D964031F1FD114003F8B27 /* Assignment2 (Sateek Roy) */ = {
+			isa = PBXGroup;
+			children = (
+				D0D964041F1FD114003F8B27 /* AppDelegate.swift */,
+				D0D964061F1FD114003F8B27 /* ViewController.swift */,
+				D0D964191F1FD4A5003F8B27 /* AddStudentViewController.swift */,
+				D0D964081F1FD114003F8B27 /* Main.storyboard */,
+				D0D9640E1F1FD114003F8B27 /* Assets.xcassets */,
+				D0D9641B1F1FD4D3003F8B27 /* StudentTableViewCell.swift */,
+				D0D964101F1FD114003F8B27 /* LaunchScreen.storyboard */,
+				D0D964131F1FD114003F8B27 /* Info.plist */,
+				D0D9640B1F1FD114003F8B27 /* Assignment2__Sateek_Roy_.xcdatamodeld */,
+			);
+			path = "Assignment2 (Sateek Roy)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0D964001F1FD114003F8B27 /* Assignment2 (Sateek Roy) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D964161F1FD114003F8B27 /* Build configuration list for PBXNativeTarget "Assignment2 (Sateek Roy)" */;
+			buildPhases = (
+				D0D963FD1F1FD114003F8B27 /* Sources */,
+				D0D963FE1F1FD114003F8B27 /* Frameworks */,
+				D0D963FF1F1FD114003F8B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assignment2 (Sateek Roy)";
+			productName = "Assignment2 (Sateek Roy)";
+			productReference = D0D964011F1FD114003F8B27 /* Assignment2 (Sateek Roy).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D963F91F1FD114003F8B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SateekLambton;
+				TargetAttributes = {
+					D0D964001F1FD114003F8B27 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D0D963FC1F1FD114003F8B27 /* Build configuration list for PBXProject "Assignment2 (Sateek Roy)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0D963F81F1FD114003F8B27;
+			productRefGroup = D0D964021F1FD114003F8B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0D964001F1FD114003F8B27 /* Assignment2 (Sateek Roy) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0D963FF1F1FD114003F8B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D964121F1FD114003F8B27 /* LaunchScreen.storyboard in Resources */,
+				D0D9640F1F1FD114003F8B27 /* Assets.xcassets in Resources */,
+				D0D9640A1F1FD114003F8B27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0D963FD1F1FD114003F8B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D9641A1F1FD4A5003F8B27 /* AddStudentViewController.swift in Sources */,
+				D0D9641C1F1FD4D3003F8B27 /* StudentTableViewCell.swift in Sources */,
+				D0D9640D1F1FD114003F8B27 /* Assignment2__Sateek_Roy_.xcdatamodeld in Sources */,
+				D0D964071F1FD114003F8B27 /* ViewController.swift in Sources */,
+				D0D964051F1FD114003F8B27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0D964081F1FD114003F8B27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D964091F1FD114003F8B27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0D964101F1FD114003F8B27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D964111F1FD114003F8B27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0D964141F1FD114003F8B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0D964151F1FD114003F8B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0D964171F1FD114003F8B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Assignment2 (Sateek Roy)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SateekLambton.Assignment2--Sateek-Roy-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D0D964181F1FD114003F8B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Assignment2 (Sateek Roy)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SateekLambton.Assignment2--Sateek-Roy-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D963FC1F1FD114003F8B27 /* Build configuration list for PBXProject "Assignment2 (Sateek Roy)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D964141F1FD114003F8B27 /* Debug */,
+				D0D964151F1FD114003F8B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D964161F1FD114003F8B27 /* Build configuration list for PBXNativeTarget "Assignment2 (Sateek Roy)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D964171F1FD114003F8B27 /* Debug */,
+				D0D964181F1FD114003F8B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0D9640B1F1FD114003F8B27 /* Assignment2__Sateek_Roy_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0D9640C1F1FD114003F8B27 /* Assignment2__Sateek_Roy_.xcdatamodel */,
+			);
+			currentVersion = D0D9640C1F1FD114003F8B27 /* Assignment2__Sateek_Roy_.xcdatamodel */;
+			path = Assignment2__Sateek_Roy_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0D963F91F1FD114003F8B27 /* Project object */;
+}
